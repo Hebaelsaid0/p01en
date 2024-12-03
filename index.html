@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <link rel="stylesheet" href="css/style.css">
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+<style>
+
+
+@media only screen and (max-width: 992px) {
+    body {
+        background-color: purple;
+    }
+    .item {
+        width: 45%;
+        font-size: 4em;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        background-color: yellowgreen;
+    }
+    .item {
+        width: 95%;
+        font-size: 4em;
+    }
+}
+</style>
+
+
+  </head>
+  <body>
+    <nav>
+      <h2>start bootstrap</h2>
+      <div id="divOne">
+        <div><a href="#Portfolio">Portfolio</a></div>
+        <div><a href="#About">About</a></div>
+        <div><a href="#Contact">Contact</a></div>
+      </div>
+    </nav>
+    <!-- --------------------------header--------------------------------->
+    <section class="banner">
+      <div id="banner">
+        <img src="img/avataaars.svg" alt="" />
+        <h1 class="H1">start bootstrap</h1>
+        <div class="lineStarLine">
+          <div class="line"></div>
+          <i class="star fas fa-star"></i>
+          <div class="line"></div>
+        </div>
+        <p class="p1">Graphic Artist - Web Designer - Illustrator</p>
+      </div>
+    </section>
+    <!-- -------------------------------------------------------------------->
+    <section id="Portfolio">
+      <h1>Portfolio</h1>
+      <div class="lineStarLine lineStarLine2">
+        <div class="line2"></div>
+        <i class="star2 fas fa-star"></i>
+        <div class="line2"></div>
+      </div>
+      <div class="IMG1">
+        <img src="img/cabin.png" alt="" />
+        <img src="img/cake.png" alt="" />
+        <img src="img/circus.png" alt="" />
+      </div>
+      <div class="IMG1">
+        <img src="img/game.png" alt="" />
+        <img src="img/safe.png" alt="" />
+        <img src="img/submarine.png" alt="" />
+      </div>
+    </section>
+    <!-- --------------------------------------------------------------------------- -->
+    <section id="About">
+      <h1>About</h1>
+      <div class="lineStarLine">
+        <div class="line"></div>
+        <i class="star fas fa-star"></i>
+        <div class="line"></div>
+      </div>
+      <div class="aboutP">
+        <p class="p2">
+          Freelancer is a free bootstrap theme <br />created by Start Bootstrap.
+          The <br />download includes the complete source <br />files including
+          HTML, CSS, and <br />JavaScript as well as optional SASS
+          <br />stylesheets for easy customization.
+        </p>
+        <p class="p2">
+          You can create your own custom avatar <br />
+          for the masthead, change the icon in the <br />
+          dividers, and add your email address to <br />
+          the contact form to make it fully functional!
+        </p>
+      </div>
+      <button class="btn">
+        <i class="fas fa-download"></i>
+        Free Dawnload!
+      </button>
+    </section>
+    <!-- --------------------------------------------------------------------------- -->
+    <section id="Contact">
+      <h1>Contact Me</h1>
+      <div class="lineStarLine lineStarLine2">
+        <div class="line2"></div>
+        <i class="star2 fas fa-star"></i>
+        <div class="line2"></div>
+      </div>
+      <form action="">
+        <input
+          type="text"
+          placeholder="Full name"
+          required
+          name="fullName"
+          id="fullName"
+        />
+        <br />
+        <br />
+        <input
+          type="text"
+          placeholder="Email Address"
+          required
+          name="fullName"
+          id="fullName"
+        /><br />
+        <br />
+        <input
+          type="text"
+          placeholder="Phone Number"
+          required
+          name="fullName"
+          id="fullName"
+        /><br />
+        <br />
+        <input
+          type="text"
+          placeholder="Message"
+          required
+          name="fullName"
+          id="fullName"
+        />
+        <input class="inp1" type="submit" value="Send" />
+      </form>
+    </section>
+    <!-------------------------------------------- footer----------------------- ---->
+    <section id="footer">
+      <div class="loc">
+        <h1>Location</h1>
+        <p>
+          2215 John Daniel Drive<br />
+          Clark, MO 65243
+        </p>
+      </div>
+      <div class="two">
+        <h1>Around the Web</h1>
+        <div>
+          <a class="icons" href=""><i class="fab fa-fw fa-facebook-f"></i></a>
+          <a class="icons" href=""><i class="fab fa-fw fa-twitter"></i></a>
+          <a class="icons" href=""><i class="fab fa-fw fa-linkedin-in"></i></a>
+          <a class="icons" href=""><i class="fab fa-fw fa-dribbble"></i></a>
+        </div>
+      </div>
+      <div>
+        <h1>About Freelancer</h1>
+        <p class="lead">
+          Freelance is a free to use, MIT licensed<br />
+          Bootstrap theme created by
+          <a href="http://startbootstrap.com"
+            >Start<br />
+            Bootstrap</a
+          >
+          .
+        </p>
+      </div>
+    </section>
+    <!-- -------------------------------------- -->
+    <section id="end">
+      <p>Copyright © Your Website 2021</p>
+    </section>
+  </body>
+</html>
